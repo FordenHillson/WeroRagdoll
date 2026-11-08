@@ -1,0 +1,30 @@
+# Build
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+*.dll
+*.pdb
+*.mdb
+*.cache
+*.user
+*.suo
+*.DotSettings.user
+
+# IDE
+.vs/
+.idea/
+*.swp
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local / secrets
+.env
+.env.*
+*.cfg
+!**/docs/**/*.md
